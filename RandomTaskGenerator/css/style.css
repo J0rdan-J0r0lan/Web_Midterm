@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+        *{
+          
+    margin: 0;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+    font-family: "Poppins";
+    text-transform: capitalize;
+}
+
+body{
+    background-image: url(https://images.pexels.com/photos/5200063/pexels-photo-5200063.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 105vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+            
+}
+
+.container{
+    background-image: url(https://images.pexels.com/photos/2748757/pexels-photo-2748757.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 560px;
+    min-width: 760px;
+    border-radius: 5px;
+    padding-top: 50px;
+    overflow-y: auto;
+    margin-top: 50px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+h3{
+    position:absolute;
+      margin-top: -590px;
+      color: darkturquoise;
+      font-size:60px;
+  }
+  
+input{
+    height: 50px;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.75);
+    outline: none;
+    border-radius: 5px;
+    font-size: 13px;
+    box-shadow: 0 0 4px rgb(12, 1, 10);
+    margin: 30px 0;
+    padding: 0 10px;
+    padding-left:20px;
+    transition: .4s;
+}
+input[placeholder]:focus{
+    color: rgb(31, 23, 23);
+}
+input:focus,
+#randTask:hover,
+#AddTask:hover{
+    box-shadow: 1px 1px 10px black;
+    background-color: darkturquoise;
+}
+
+#ranDom{
+    padding: 5px 25px;
+    background: darkturquoise;
+    border-radius: 5px;
+    box-shadow: 0 0 4px rgb(32, 4, 26);
+    cursor: pointer;
+    outline: none;
+    /* margin-left: 15px; */
+    transition: .5s;
+    height: 40px;
+    float:left;
+    margin-top:-20px;
+    width:40%;
+}
+
+#ranDom:hover{
+    background-color: brown;
+    color: white;
+}
+#Add{
+    padding: 5px 25px;
+    background: darkturquoise;
+    border-radius: 5px;
+    box-shadow: 0 0 4px rgb(32, 4, 26);
+    cursor: pointer;
+    outline: none;
+    transition: .5s;
+    height: 40px;
+    float:right;
+    margin-top:-20px;
+    width:40%;
+
+}
+#Add:hover{
+    background-color: brown;
+    color: white;
+}
+ol{
+    font-size: 13px;
+    padding-top: 2px ;
+}
+ol li{ 
+   
+    height: 30px;
+    border-radius: 5px;
+    margin: 8px;
+    padding: 9px ;
+    position: relative;
+    color: black;
+    border: none;
+    outline: none;
+
+    background: rgba(255, 255, 255, 0.6);
+    box-shadow: 0 0 6px rgb(32, 4, 26);
+    transition-duration: .5s;
+}
+.toDoList{
+  padding-left:10px;
+}
+ol .checked {
+  background: orange;
+  text-decoration: line-through;
+}
